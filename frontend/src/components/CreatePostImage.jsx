@@ -14,7 +14,12 @@ const CreatePostImgae = ({ setRefresh }) => {
 		<form onSubmit={handleSubmit}>
 			<input type='text' placeholder='Title' name='title' />
 			<input type='text' placeholder='Content' name='content' />
-			<input type='text' placeholder='AuthorId' name='author' />
+			<input
+				type='text'
+				placeholder='AuthorId'
+				name='author'
+				value='64ba362615e5f99efb124b57'
+			/>
 			<input type='file' placeholder='Image' name='image' />
 			<button type='submit'>Submit</button>
 		</form>
